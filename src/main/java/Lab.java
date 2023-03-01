@@ -9,11 +9,15 @@ public class Lab {
      *
      * That operator, could be used to tell if a number is even or odd - a number that has a remainder of 0 when
      * divided by 2 is naturally even.
-     *
+     * in java 
      * @param n a number.
      * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
      */
     public String decide(int n){
-        return "";
+     if (n % 2==0 ){
+        return "Even";
+     } else{
+        return "Odd";
+     }
     }
 }
